@@ -15,10 +15,12 @@ export default {
 }
 `.trim()
 
+const handleComponentName = name => name.replace(/\-(\d+)/, '$1')
+
 const icons = Object.keys(feather.icons).map(name => ({
   name,
-  componentName: `${name}-icon`,
-  pascalCasedComponentName: pascalCase(`${name}-icon`)
+  componentName: `${handleComponentName(name)}-icon`,
+  pascalCasedComponentName: pascalCase(`${handleComponentName(name)}-icon`)
 }))
 
 Promise.all(icons.map(icon => {
