@@ -1,0 +1,49 @@
+{
+  "name": "vue-feather-icons",
+  "version": "0.0.0",
+  "description": "Simply beautiful open source icons as Vue functional components.",
+  "repository": {
+    "url": "egoist/vue-feather-icons",
+    "type": "git"
+  },
+  "main": "dist/vue-feather-icons.common.js",
+  "cdn": "dist/vue-feather-icons.min.js",
+  "unpkg": "dist/vue-feather-icons.min.js",
+  "module": "dist/vue-feather-icons.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo 'no tests!'",
+    "prepublish": "npm run build",
+    "build": "node build && bili --js babel --format umd,es,cjs,umdCompress",
+    "example": "poi",
+    "build:example": "poi build"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "poi": {
+    "entry": "example/index.js",
+    "dist": "example/dist",
+    "homepage": "/"
+  },
+  "dependencies": {
+    "babel-helper-vue-jsx-merge-props": "^2.0.2"
+  },
+  "devDependencies": {
+    "bili": "^0.17.0",
+    "eslint-config-rem": "^3.0.0",
+    "feather-icons": "^3.2.1",
+    "fs-extra": "^4.0.1",
+    "pascal-case": "^2.0.1",
+    "poi": "^9.1.4",
+    "rollup-plugin-babel": "^2.7.1"
+  },
+  "babel": {
+    "presets": [
+      [
+        "vue-app"
+      ]
+    ]
+  }
+}
