@@ -8,7 +8,7 @@
     <header class="header">
       <div class="container">
         <h1 class="hero-heading">vue-feather-icons</h1>
-        <h2 class="desc">Where the tiny style-controlled SVG iconset meets Vue functional component</h2>
+        <h2 class="desc">Simply beautiful open source icons as Vue functional components.</h2>
       </div>
     </header>
     <div class="container">
