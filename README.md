@@ -15,7 +15,11 @@ yarn add vue-feather-icons
 import { AirplayIcon, AtSignIcon, ... } from 'vue-feather-icons'
 ```
 
-See all icons: https://feathericons.com
+See all icons and usage here: https://vue-feather-icons.netlify.com
+
+## Related
+
+- [vue-bytesize-icons](https://github.com/egoist/vue-bytesize-icons)
 
 ## Contributing
 
