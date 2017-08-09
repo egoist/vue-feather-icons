@@ -31,19 +31,29 @@
     "babel-helper-vue-jsx-merge-props": "^2.0.2"
   },
   "devDependencies": {
+    "babel-plugin-preval": "^1.4.2",
     "bili": "^0.17.0",
     "eslint-config-rem": "^3.0.0",
     "feather-icons": "^3.2.1",
     "fs-extra": "^4.0.1",
+    "lodash.kebabcase": "^4.1.1",
+    "marked3": "^0.5.1",
     "pascal-case": "^2.0.1",
     "poi": "^9.1.4",
-    "rollup-plugin-babel": "^2.7.1"
+    "prismjs": "^1.6.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "typeface-nunito": "^0.0.35",
+    "v-tippy": "^1.0.0",
+    "vue-github-badge": "^1.0.1"
   },
   "babel": {
     "presets": [
       [
         "vue-app"
       ]
+    ],
+    "plugins": [
+      "preval"
     ]
   }
 }
