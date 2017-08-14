@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import { ICON } from 'vue-bytesize-icons'
+import { ICON } from 'vue-feather-icons'
 
 export default {
   components: {
