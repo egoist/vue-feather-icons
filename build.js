@@ -24,7 +24,7 @@ const icons = Object.keys(feather.icons).map(name => ({
 }))
 
 Promise.all(icons.map(icon => {
-  const svg = feather.toSvg(icon.name)
+  const svg = feather.icons[icon.name].toSvg()
   const component = componentTemplate(icon.componentName, svg)
   const filepath = `./src/components/${icon.pascalCasedComponentName}.js`
   return fs.ensureDir(path.dirname(filepath))
