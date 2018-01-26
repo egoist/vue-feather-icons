@@ -9,13 +9,14 @@
   "main": "dist/vue-feather-icons.cjs.js",
   "cdn": "dist/vue-feather-icons.min.js",
   "unpkg": "dist/vue-feather-icons.min.js",
-  "module": "dist/vue-feather-icons.m.js",
+  "module": "dist/vue-feather-icons.es.js",
   "files": [
     "dist"
   ],
+  "sideEffects": false,
   "scripts": {
     "test": "echo 'no tests!'",
-    "prepublish": "npm run build",
+    "prepublishOnly": "npm run build",
     "build": "node build && bili --jsx vue --format umd,es,cjs,umd-min --name vue-feather-icons",
     "example": "poi",
     "build:example": "poi build"
@@ -32,7 +33,7 @@
   },
   "devDependencies": {
     "babel-plugin-preval": "^1.4.2",
-    "bili": "^1.6.5",
+    "bili": "^2.2.3",
     "eslint-config-rem": "^3.0.0",
     "feather-icons": "^4.5.0",
     "fs-extra": "^4.0.1",
