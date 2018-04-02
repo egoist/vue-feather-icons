@@ -19,7 +19,8 @@
     "prepublishOnly": "npm run build",
     "build": "node build && bili --jsx vue --format umd,es,cjs,umd-min --name vue-feather-icons",
     "example": "poi",
-    "build:example": "poi build"
+    "build:example": "poi build",
+    "prebuild:example": "npm run build"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
