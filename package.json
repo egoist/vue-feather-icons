@@ -11,13 +11,16 @@
   "unpkg": "dist/vue-feather-icons.min.js",
   "module": "dist/vue-feather-icons.es.js",
   "files": [
-    "dist"
+    "dist",
+    "icons"
   ],
   "sideEffects": false,
   "scripts": {
     "test": "echo 'no tests!'",
     "prepublishOnly": "npm run build",
-    "build": "node build && bili --jsx vue --format umd,es,cjs,umd-min --name vue-feather-icons",
+    "build": "npm run build:dist && npm run build:icons",
+    "build:dist": "node build && bili --jsx vue --format umd,es,cjs,umd-min --name vue-feather-icons",
+    "build:icons": "babel src/components -d icons",
     "example": "poi",
     "build:example": "poi build",
     "prebuild:example": "npm run build"
@@ -33,6 +36,8 @@
     "babel-helper-vue-jsx-merge-props": "^2.0.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-plugin-preval": "^1.4.2",
     "bili": "^2.2.3",
     "eslint-config-rem": "^3.0.0",
