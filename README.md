@@ -19,7 +19,7 @@ See all icons and usage here: https://vue-feather-icons.netlify.com
 
 ## Tree shaking
 
-By using named imports like `import { AirplayIcon } from 'vue-feather-icons'` with [webpack + minifier](https://webpack.js.org/guides/tree-shaking/#minify-the-output) or Rollup, unused imports will be automatically eliminated.
+By using ES imports like `import { AirplayIcon } from 'vue-feather-icons'` with [webpack + minifier](https://webpack.js.org/guides/tree-shaking/#minify-the-output) or Rollup, unused exports in this module will be automatically eliminated.
 
 To make webpack tree shaking work without using any minifier, you can use the per-file icons from [`icons`](https://unpkg.com/vue-feather-icons/icons/) directory, e.g. `import AirplayIcon from 'vue-feather-icons/icons/AirplayIcon'`.
 
