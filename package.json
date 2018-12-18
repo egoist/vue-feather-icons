@@ -41,7 +41,7 @@
     "babel-plugin-preval": "^1.4.2",
     "bili": "^2.2.3",
     "eslint-config-rem": "^3.0.0",
-    "feather-icons": "^4.7.0",
+    "feather-icons": "^4.8.0",
     "fs-extra": "^4.0.1",
     "lodash.kebabcase": "^4.1.1",
     "marked3": "^0.5.1",
