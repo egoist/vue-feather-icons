@@ -46,7 +46,7 @@
     "lodash.kebabcase": "^4.1.1",
     "marked3": "^0.5.1",
     "pascal-case": "^2.0.1",
-    "poi": "^9.6.9",
+    "poi": "^12.2.0",
     "prismjs": "^1.6.0",
     "rollup-plugin-babel": "^3.0.3",
     "typeface-nunito": "^0.0.35",
