@@ -1,6 +1,6 @@
 {
   "name": "vue-feather-icons",
-  "version": "4.7.1",
+  "version": "4.10.0",
   "description": "Simply beautiful open source icons as Vue functional components.",
   "repository": {
     "url": "egoist/vue-feather-icons",
@@ -50,9 +50,12 @@
   },
   "babel": {
     "presets": [
-      ["poi/babel", {
-        "jsx": "vue"
-      }]
+      [
+        "poi/babel",
+        {
+          "jsx": "vue"
+        }
+      ]
     ]
   }
 }
