@@ -23,7 +23,7 @@
     "build:icons": "node build && babel src/components -d icons",
     "example": "poi --serve --config example/poi.config.js",
     "build:example": "poi --prod --config example/poi.config.js",
-    "prebuild:example": "npm run build"
+    "prebuild:example": "npm run build:icons"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
@@ -40,7 +40,7 @@
     "lodash.kebabcase": "^4.1.1",
     "marked": "^0.6.0",
     "pascal-case": "^2.0.1",
-    "poi": "^12.0.0",
+    "poi": "^12.4.4",
     "prismjs": "^1.6.0",
     "typeface-nunito": "^0.0.35",
     "v-tippy": "^1.0.0",

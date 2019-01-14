@@ -5425,10 +5425,10 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-poi@^12.0.0:
-  version "12.4.3"
-  resolved "https://registry.npmjs.org/poi/-/poi-12.4.3.tgz#8c27018c934abe031956831c948392a0acb2c463"
-  integrity sha512-NOpOYepmRrrjpmewM8m+aDnzXWpG2ActL8KeGv9zU4Ix2evWspdjYQIbDHArIv9PLnKQx7TIkKxnUiXWx2NhPg==
+poi@^12.4.4:
+  version "12.4.4"
+  resolved "https://registry.npmjs.org/poi/-/poi-12.4.4.tgz#f8dd1f2b51f15688ef7ce5733c9893489f161d74"
+  integrity sha512-77Lw6Tptl5tbLBeyFtqg9jFzLPOpuxoowLx2YVH5c7R5mNX/7wsy7SyRdt6eZmXAc+INxWd5f6HUqwEfyFZtyA==
   dependencies:
     "@babel/core" "^7.1.6"
     "@babel/plugin-proposal-class-properties" "^7.1.0"
