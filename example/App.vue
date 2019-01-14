@@ -44,21 +44,8 @@
 import kebab from 'lodash.kebabcase'
 import Github from 'vue-github-badge'
 import * as icons from '../src'
+import example from './example.md'
 
-const example = preval`
-const fs = require('fs')
-require('prismjs')
-require('prismjs/components/prism-javascript')
-const marked = require('marked3')
-const markdown = fs.readFileSync(__dirname + '/example.md', 'utf8')
-const html = marked(markdown, {
-  highlight(str, lang) {
-    return Prism.highlight(str, Prism.languages[lang] || Prism.languages.markup)
-  }
-})
-module.exports = html
-`
-console.log(icons)
 export default {
   data() {
     return {

@@ -18,47 +18,41 @@
   "scripts": {
     "test": "echo 'no tests!'",
     "prepublishOnly": "npm run build",
-    "build": "npm run build:dist && npm run build:icons",
-    "build:dist": "node build && bili --jsx vue --format umd,es,cjs,umd-min --name vue-feather-icons",
-    "build:icons": "babel src/components -d icons",
-    "example": "poi",
-    "build:example": "poi build",
+    "build": "npm run build:icons && npm run build:dist",
+    "build:dist": "bili --format umd,es,cjs,umd-min --js buble --name vue-feather-icons",
+    "build:icons": "node build && babel src/components -d icons",
+    "example": "poi --serve --config example/poi.config.js",
+    "build:example": "poi --prod --config example/poi.config.js",
     "prebuild:example": "npm run build"
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
-  "poi": {
-    "entry": "example/index.js",
-    "dist": "example/dist",
-    "homepage": "/"
-  },
   "dependencies": {
     "babel-helper-vue-jsx-merge-props": "^2.0.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-plugin-preval": "^1.4.2",
-    "bili": "^2.2.3",
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "bili": "^3.4.2",
     "eslint-config-rem": "^3.0.0",
     "feather-icons": "^4.10.0",
     "fs-extra": "^4.0.1",
     "lodash.kebabcase": "^4.1.1",
-    "marked3": "^0.5.1",
+    "marked": "^0.6.0",
     "pascal-case": "^2.0.1",
-    "poi": "^9.6.9",
+    "poi": "^12.0.0",
     "prismjs": "^1.6.0",
-    "rollup-plugin-babel": "^3.0.3",
     "typeface-nunito": "^0.0.35",
     "v-tippy": "^1.0.0",
-    "vue-github-badge": "^1.0.1"
+    "vue": "^2.5.22",
+    "vue-github-badge": "^1.0.1",
+    "vue-template-compiler": "^2.5.22"
   },
   "babel": {
     "presets": [
-      "poi"
-    ],
-    "plugins": [
-      "preval"
+      ["poi/babel", {
+        "jsx": "vue"
+      }]
     ]
   }
 }

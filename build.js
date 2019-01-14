@@ -19,19 +19,18 @@ const handleComponentName = name => name.replace(/\-(\d+)/, '$1')
 
 const icons = Object.keys(feather.icons).map(name => ({
   name,
-  componentName: `${handleComponentName(name)}-icon`,
   pascalCasedComponentName: pascalCase(`${handleComponentName(name)}-icon`)
 }))
 
 Promise.all(icons.map(icon => {
   const svg = feather.icons[icon.name].toSvg()
-  const component = componentTemplate(icon.componentName, svg)
+  const component = componentTemplate(icon.pascalCasedComponentName, svg)
   const filepath = `./src/components/${icon.pascalCasedComponentName}.js`
   return fs.ensureDir(path.dirname(filepath))
     .then(() => fs.writeFile(filepath, component, 'utf8'))
 })).then(() => {
   const main = icons
-    .map(icon => `export { default as ${icon.pascalCasedComponentName} } from './components/${icon.pascalCasedComponentName}'`)
+    .map(icon => `export { default as ${icon.pascalCasedComponentName} } from '../icons/${icon.pascalCasedComponentName}'`)
     .join('\n\n')
-  return fs.writeFile('./src/index.js', main, 'utf8')
+  return fs.outputFile('./src/index.js', main, 'utf8')
 })
