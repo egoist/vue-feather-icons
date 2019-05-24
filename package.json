@@ -34,7 +34,7 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
     "bili": "^3.4.2",
-    "eslint-config-rem": "^3.0.0",
+    "eslint-config-rem": "^4.0.0",
     "feather-icons": "^4.10.0",
     "fs-extra": "^8.0.1",
     "lodash.kebabcase": "^4.1.1",
