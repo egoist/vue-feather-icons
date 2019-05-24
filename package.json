@@ -36,7 +36,7 @@
     "bili": "^3.4.2",
     "eslint-config-rem": "^3.0.0",
     "feather-icons": "^4.10.0",
-    "fs-extra": "^4.0.1",
+    "fs-extra": "^8.0.1",
     "lodash.kebabcase": "^4.1.1",
     "marked": "^0.6.0",
     "pascal-case": "^2.0.1",
