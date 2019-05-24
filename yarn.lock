@@ -2865,20 +2865,12 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-prettier@^1.7.0:
-  version "1.7.0"
-  resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-1.7.0.tgz#cda3ce22df1e852daa9370f1f3446e8b8a02ce44"
+eslint-config-rem@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-rem/-/eslint-config-rem-4.0.0.tgz#a33022c2122d925e5cf632dc45555cd2e090e50f"
+  integrity sha512-tqtBkjRnSb5LTOQ+DziuDMik2yIWIzEa5k3J/YSh0W0WzCNlI0K6uKy5VeGIzHhj9mRZvoxMtELMtzIHhE0Taw==
   dependencies:
-    get-stdin "^5.0.1"
-
-eslint-config-rem@^3.0.0:
-  version "3.2.0"
-  resolved "https://registry.npmjs.org/eslint-config-rem/-/eslint-config-rem-3.2.0.tgz#8f9db2f7dded1875a12689a3e28ab4ae137cfac3"
-  dependencies:
-    eslint-config-prettier "^1.7.0"
     eslint-plugin-markdown "^1.0.0-beta.6"
-    eslint-plugin-prettier "^2.0.1"
-    prettier "^1.2.2"
 
 eslint-plugin-markdown@^1.0.0-beta.6:
   version "1.0.0-beta.7"
@@ -2887,13 +2879,6 @@ eslint-plugin-markdown@^1.0.0-beta.6:
     object-assign "^4.0.1"
     remark-parse "^3.0.0"
     unified "^6.1.2"
-
-eslint-plugin-prettier@^2.0.1:
-  version "2.1.2"
-  resolved "https://registry.npmjs.org/eslint-plugin-prettier/-/eslint-plugin-prettier-2.1.2.tgz#4b90f4ee7f92bfbe2e926017e1ca40eb628965ea"
-  dependencies:
-    fast-diff "^1.1.1"
-    jest-docblock "^20.0.1"
 
 eslint-scope@^4.0.0:
   version "4.0.0"
@@ -3109,10 +3094,6 @@ fast-deep-equal@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz#7b05218ddf9667bf7f370bf7fdb2cb15fdd0aa49"
   integrity sha1-ewUhjd+WZ79/Nwv3/bLLFf3Qqkk=
-
-fast-diff@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/fast-diff/-/fast-diff-1.1.1.tgz#0aea0e4e605b6a2189f0e936d4b7fbaf1b7cfd9b"
 
 fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
@@ -3409,10 +3390,6 @@ get-port@^4.0.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/get-port/-/get-port-4.1.0.tgz#93eb3d5552c197497d76e9c389a6ac9920e20192"
   integrity sha512-4/fqAYrzrzOiqDrdeZRKXGdTGgbkfTEumGlNQPeP6Jy8w0PzN9mzeNQ3XgHaTNie8pQ3hOUkrwlZt2Fzk5H9mA==
-
-get-stdin@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/get-stdin/-/get-stdin-5.0.1.tgz#122e161591e21ff4c52530305693f20e6393a398"
 
 get-stream@^3.0.0:
   version "3.0.0"
@@ -4213,10 +4190,6 @@ javascript-stringify@^1.6.0:
   version "1.6.0"
   resolved "https://registry.npmjs.org/javascript-stringify/-/javascript-stringify-1.6.0.tgz#142d111f3a6e3dae8f4a9afd77d45855b5a9cce3"
   integrity sha1-FC0RHzpuPa6PSpr9d9RYVbWpzOM=
-
-jest-docblock@^20.0.1:
-  version "20.0.3"
-  resolved "https://registry.npmjs.org/jest-docblock/-/jest-docblock-20.0.3.tgz#17bea984342cc33d83c50fbe1545ea0efaa44712"
 
 jest-worker@^23.2.0:
   version "23.2.0"
@@ -6158,10 +6131,6 @@ prettier@1.13.7:
   version "1.13.7"
   resolved "https://registry.npmjs.org/prettier/-/prettier-1.13.7.tgz#850f3b8af784a49a6ea2d2eaa7ed1428a34b7281"
   integrity sha512-KIU72UmYPGk4MujZGYMFwinB7lOf2LsDNGSOC8ufevsrPLISrZbNJlWstRi3m0AMuszbH+EFSQ/r6w56RSPK6w==
-
-prettier@^1.2.2:
-  version "1.5.3"
-  resolved "https://registry.npmjs.org/prettier/-/prettier-1.5.3.tgz#59dadc683345ec6b88f88b94ed4ae7e1da394bfe"
 
 pretty-error@^2.1.1:
   version "2.1.1"
