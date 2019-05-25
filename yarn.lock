@@ -7644,9 +7644,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-nunito@^0.0.35:
-  version "0.0.35"
-  resolved "https://registry.npmjs.org/typeface-nunito/-/typeface-nunito-0.0.35.tgz#da6327c9c914b893500e75aaed3eff7a0f7025c1"
+typeface-nunito@^0.0.72:
+  version "0.0.72"
+  resolved "https://registry.yarnpkg.com/typeface-nunito/-/typeface-nunito-0.0.72.tgz#152e7b8fc35452bacffc1313f322cbbd8034fc30"
+  integrity sha512-id43vYQiM9emQ6sbysLDRp8fb39Dk5yW/q6uSPHJnE1XVDSfrxYWFg/YiSoiaK+kO7wbuWb2HSjCAfH96Mabvg==
 
 uglify-js@3.4.x:
   version "3.4.9"
