@@ -27,7 +27,7 @@
           v-for="icon in filteredIcons"
           @click="handleClickIcon(icon)"
           :key="icon">
-          <component :is="icon" class="icon-svg"></component>
+          <component :is="icon" size="1.5x" class="icon-svg"></component>
           <span>{{ icon }}</span>
         </div>
       </div>
@@ -127,6 +127,10 @@ a:hover {
   overflow: visible;
   word-wrap: normal;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.tippy-popper {
+  max-width: 450px;
 }
 
 .tippy-popper .tippy-tooltip.light-theme[data-animatefill] {

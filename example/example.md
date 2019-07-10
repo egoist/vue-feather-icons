@@ -1,6 +1,6 @@
 ```vue
 <template>
-  <kebab-icon class="custom-class"></kebab-icon>
+  <kebab-icon size="1.5x" class="custom-class"></kebab-icon>
 </template>
 
 <script>
