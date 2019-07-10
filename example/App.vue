@@ -27,7 +27,7 @@
           v-for="icon in filteredIcons"
           @click="handleClickIcon(icon)"
           :key="icon">
-          <component :is="icon" size="1.5x" class="icon-svg"></component>
+          <component :is="icon" class="icon-svg"></component>
           <span>{{ icon }}</span>
         </div>
       </div>
@@ -38,7 +38,7 @@
             class="size"
             v-for="size in exampleSizes"
             v-tippy="{interactive: true}"
-            @click="handleClickIcon(icon)"
+            @click="handleClickSize(size)"
             :key="size"
             :title="sizeExample(size)">
             <div class="size-label">{{ size }}</div>

@@ -10,7 +10,7 @@ export default {
   props: {
     size: {
       type: String,
-      default: '1x',
+      default: '24',
       validator: (s) => (!isNaN(s) || s.length >= 2 && !isNaN(s.slice(0, s.length -1)) && s.slice(-1) === 'x' )
     }
   },
@@ -22,12 +22,9 @@ export default {
       ? ctx.props.size.slice(0, ctx.props.size.length -1) + 'em'
       : parseInt(ctx.props.size) + 'px';
     
-    ctx.data.style = {
-      'height': size,
-      'width': size,
-      'pointer-events': 'none',
-      'vertical-align': 'middle'
-    }
+    ctx.data.attrs = ctx.attrs || {};
+    ctx.data.attrs.width = size;
+    ctx.data.attrs.height = size;
   
     return ${svg.replace(/<svg([^>]+)>/, '<svg$1 {...ctx.data}>')}
   }
