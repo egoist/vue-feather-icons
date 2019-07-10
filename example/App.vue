@@ -41,7 +41,9 @@
             @click="handleClickSize(size)"
             :key="size"
             :title="sizeExample(size)">
-            <div class="size-label">{{ size }}</div>
+            <div class="size-label">
+              {{ size }}{{ size === '1x' ? ' (default)' : '' }}
+            </div>
             <div class="size-icon">
               <archive-icon :size="size"></archive-icon>
             </div>
