@@ -17,6 +17,23 @@ import { AirplayIcon, AtSignIcon, ... } from 'vue-feather-icons'
 
 See all icons and usage here: https://vue-feather-icons.netlify.com
 
+### Sizing
+
+By default, icons will be sized based on the font size of the parent element.
+
+You can set a custom size using the `size` attribute. 
+For multiple based sizing, pass the desired multiple followed by an `x`.
+
+```html
+<activity-icon size="1.5x" class="custom-class"></activity-icon> 
+```
+
+You can also set a `px` size directly by just passing an integer
+
+```html
+<activity-icon size="25" class="custom-class"></activity-icon> 
+```
+
 ## Tree shaking
 
 By using ES imports like `import { AirplayIcon } from 'vue-feather-icons'` with [webpack + minifier](https://webpack.js.org/guides/tree-shaking/#minify-the-output) or Rollup, unused exports in this module will be automatically eliminated.

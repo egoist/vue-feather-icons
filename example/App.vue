@@ -31,6 +31,25 @@
           <span>{{ icon }}</span>
         </div>
       </div>
+      <div class="sizing">
+        <h2>Sizing</h2>
+        <div class="sizes">
+          <div
+            class="size"
+            v-for="size in exampleSizes"
+            v-tippy="{interactive: true}"
+            @click="handleClickSize(size)"
+            :key="size"
+            :title="sizeExample(size)">
+            <div class="size-label">
+              {{ size }}{{ size === '1x' ? ' (default)' : '' }}
+            </div>
+            <div class="size-icon">
+              <archive-icon :size="size"></archive-icon>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <footer class="footer">
       <div class="container">
@@ -52,7 +71,9 @@ export default {
       icons: Object.keys(icons),
       keyword: '',
       hoverIcon: '',
-      year: new Date().getFullYear()
+      hoverSize: '',
+      year: new Date().getFullYear(),
+      exampleSizes: ['24', '1x', '1.5x', '2x', '3x', '4x']
     }
   },
   computed: {
@@ -68,11 +89,20 @@ export default {
       return example
         .replace(/ICON/g, this.hoverIcon)
         .replace(/kebab-icon/g, kebab(this.hoverIcon))
-    }
+    },
   },
   methods: {
     handleClickIcon(icon) {
       this.hoverIcon = icon
+    },
+    handleClickSize(size) {
+      this.hoverSize = size
+    },
+    sizeExample(size) {
+      return example
+        .replace('1.5x', size)
+        .replace(/ICON/g, 'ArchiveIcon')
+        .replace(/kebab-icon/g, 'archive-icon')
     }
   },
   components: {
@@ -127,6 +157,10 @@ a:hover {
   overflow: visible;
   word-wrap: normal;
   font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+.tippy-popper {
+  max-width: 450px;
 }
 
 .tippy-popper .tippy-tooltip.light-theme[data-animatefill] {
@@ -200,6 +234,45 @@ a:hover {
 .footer {
   margin: 40px 0;
   font-size: 1rem
+}
+
+.sizing {
+  text-align: center;
+}
+
+.sizes {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.size {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+}
+
+.size-label {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: rgba(0, 0, 0, 0.36);
+  margin-bottom: 0.5em;
+}
+
+.size-icon {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.size:hover {
+  background: #f1f5ff;
 }
 
 @media screen and (max-width: 768px) {
