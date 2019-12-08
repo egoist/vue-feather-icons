@@ -3,7 +3,12 @@
 [![NPM version](https://img.shields.io/npm/v/vue-feather-icons.svg?style=flat)](https://npmjs.com/package/vue-feather-icons) [![NPM downloads](https://img.shields.io/npm/dm/vue-feather-icons.svg?style=flat)](https://npmjs.com/package/vue-feather-icons) [![CircleCI](https://circleci.com/gh/egoist/vue-feather-icons/tree/master.svg?style=shield)](https://circleci.com/gh/egoist/vue-feather-icons/tree/master)  [![donate](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&style=flat)](https://github.com/egoist/donate)
 
 ## Install
+NPM:
+```bash
+npm i vue-feather-icons
+```
 
+Yarn:
 ```bash
 yarn add vue-feather-icons
 ```
