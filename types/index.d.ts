@@ -7,291 +7,291 @@
 import { defineComponent } from 'vue';
 const Component: ReturnType<typeof defineComponent>;
 
-export interface ActivityIcon extends Component {}
-export interface AirplayIcon extends Component {}
-export interface AlertCircleIcon extends Component {}
-export interface AlertOctagonIcon extends Component {}
-export interface AlertTriangleIcon extends Component {}
-export interface AlignCenterIcon extends Component {}
-export interface AlignJustifyIcon extends Component {}
-export interface AlignLeftIcon extends Component {}
-export interface AlignRightIcon extends Component {}
-export interface AnchorIcon extends Component {}
-export interface ApertureIcon extends Component {}
-export interface ArchiveIcon extends Component {}
-export interface ArrowDownCircleIcon extends Component {}
-export interface ArrowDownLeftIcon extends Component {}
-export interface ArrowDownRightIcon extends Component {}
-export interface ArrowDownIcon extends Component {}
-export interface ArrowLeftCircleIcon extends Component {}
-export interface ArrowLeftIcon extends Component {}
-export interface ArrowRightCircleIcon extends Component {}
-export interface ArrowRightIcon extends Component {}
-export interface ArrowUpCircleIcon extends Component {}
-export interface ArrowUpLeftIcon extends Component {}
-export interface ArrowUpRightIcon extends Component {}
-export interface ArrowUpIcon extends Component {}
-export interface AtSignIcon extends Component {}
-export interface AwardIcon extends Component {}
-export interface BarChart2Icon extends Component {}
-export interface BarChartIcon extends Component {}
-export interface BatteryChargingIcon extends Component {}
-export interface BatteryIcon extends Component {}
-export interface BellOffIcon extends Component {}
-export interface BellIcon extends Component {}
-export interface BluetoothIcon extends Component {}
-export interface BoldIcon extends Component {}
-export interface BookOpenIcon extends Component {}
-export interface BookIcon extends Component {}
-export interface BookmarkIcon extends Component {}
-export interface BoxIcon extends Component {}
-export interface BriefcaseIcon extends Component {}
-export interface CalendarIcon extends Component {}
-export interface CameraOffIcon extends Component {}
-export interface CameraIcon extends Component {}
-export interface CastIcon extends Component {}
-export interface CheckCircleIcon extends Component {}
-export interface CheckSquareIcon extends Component {}
-export interface CheckIcon extends Component {}
-export interface ChevronDownIcon extends Component {}
-export interface ChevronLeftIcon extends Component {}
-export interface ChevronRightIcon extends Component {}
-export interface ChevronUpIcon extends Component {}
-export interface ChevronsDownIcon extends Component {}
-export interface ChevronsLeftIcon extends Component {}
-export interface ChevronsRightIcon extends Component {}
-export interface ChevronsUpIcon extends Component {}
-export interface ChromeIcon extends Component {}
-export interface CircleIcon extends Component {}
-export interface ClipboardIcon extends Component {}
-export interface ClockIcon extends Component {}
-export interface CloudDrizzleIcon extends Component {}
-export interface CloudLightningIcon extends Component {}
-export interface CloudOffIcon extends Component {}
-export interface CloudRainIcon extends Component {}
-export interface CloudSnowIcon extends Component {}
-export interface CloudIcon extends Component {}
-export interface CodeIcon extends Component {}
-export interface CodepenIcon extends Component {}
-export interface CodesandboxIcon extends Component {}
-export interface CoffeeIcon extends Component {}
-export interface ColumnsIcon extends Component {}
-export interface CommandIcon extends Component {}
-export interface CompassIcon extends Component {}
-export interface CopyIcon extends Component {}
-export interface CornerDownLeftIcon extends Component {}
-export interface CornerDownRightIcon extends Component {}
-export interface CornerLeftDownIcon extends Component {}
-export interface CornerLeftUpIcon extends Component {}
-export interface CornerRightDownIcon extends Component {}
-export interface CornerRightUpIcon extends Component {}
-export interface CornerUpLeftIcon extends Component {}
-export interface CornerUpRightIcon extends Component {}
-export interface CpuIcon extends Component {}
-export interface CreditCardIcon extends Component {}
-export interface CropIcon extends Component {}
-export interface CrosshairIcon extends Component {}
-export interface DatabaseIcon extends Component {}
-export interface DeleteIcon extends Component {}
-export interface DiscIcon extends Component {}
-export interface DivideCircleIcon extends Component {}
-export interface DivideSquareIcon extends Component {}
-export interface DivideIcon extends Component {}
-export interface DollarSignIcon extends Component {}
-export interface DownloadCloudIcon extends Component {}
-export interface DownloadIcon extends Component {}
-export interface DribbbleIcon extends Component {}
-export interface DropletIcon extends Component {}
-export interface Edit2Icon extends Component {}
-export interface Edit3Icon extends Component {}
-export interface EditIcon extends Component {}
-export interface ExternalLinkIcon extends Component {}
-export interface EyeOffIcon extends Component {}
-export interface EyeIcon extends Component {}
-export interface FacebookIcon extends Component {}
-export interface FastForwardIcon extends Component {}
-export interface FeatherIcon extends Component {}
-export interface FigmaIcon extends Component {}
-export interface FileMinusIcon extends Component {}
-export interface FilePlusIcon extends Component {}
-export interface FileTextIcon extends Component {}
-export interface FileIcon extends Component {}
-export interface FilmIcon extends Component {}
-export interface FilterIcon extends Component {}
-export interface FlagIcon extends Component {}
-export interface FolderMinusIcon extends Component {}
-export interface FolderPlusIcon extends Component {}
-export interface FolderIcon extends Component {}
-export interface FramerIcon extends Component {}
-export interface FrownIcon extends Component {}
-export interface GiftIcon extends Component {}
-export interface GitBranchIcon extends Component {}
-export interface GitCommitIcon extends Component {}
-export interface GitMergeIcon extends Component {}
-export interface GitPullRequestIcon extends Component {}
-export interface GithubIcon extends Component {}
-export interface GitlabIcon extends Component {}
-export interface GlobeIcon extends Component {}
-export interface GridIcon extends Component {}
-export interface HardDriveIcon extends Component {}
-export interface HashIcon extends Component {}
-export interface HeadphonesIcon extends Component {}
-export interface HeartIcon extends Component {}
-export interface HelpCircleIcon extends Component {}
-export interface HexagonIcon extends Component {}
-export interface HomeIcon extends Component {}
-export interface ImageIcon extends Component {}
-export interface InboxIcon extends Component {}
-export interface InfoIcon extends Component {}
-export interface InstagramIcon extends Component {}
-export interface ItalicIcon extends Component {}
-export interface KeyIcon extends Component {}
-export interface LayersIcon extends Component {}
-export interface LayoutIcon extends Component {}
-export interface LifeBuoyIcon extends Component {}
-export interface Link2Icon extends Component {}
-export interface LinkIcon extends Component {}
-export interface LinkedinIcon extends Component {}
-export interface ListIcon extends Component {}
-export interface LoaderIcon extends Component {}
-export interface LockIcon extends Component {}
-export interface LogInIcon extends Component {}
-export interface LogOutIcon extends Component {}
-export interface MailIcon extends Component {}
-export interface MapPinIcon extends Component {}
-export interface MapIcon extends Component {}
-export interface Maximize2Icon extends Component {}
-export interface MaximizeIcon extends Component {}
-export interface MehIcon extends Component {}
-export interface MenuIcon extends Component {}
-export interface MessageCircleIcon extends Component {}
-export interface MessageSquareIcon extends Component {}
-export interface MicOffIcon extends Component {}
-export interface MicIcon extends Component {}
-export interface Minimize2Icon extends Component {}
-export interface MinimizeIcon extends Component {}
-export interface MinusCircleIcon extends Component {}
-export interface MinusSquareIcon extends Component {}
-export interface MinusIcon extends Component {}
-export interface MonitorIcon extends Component {}
-export interface MoonIcon extends Component {}
-export interface MoreHorizontalIcon extends Component {}
-export interface MoreVerticalIcon extends Component {}
-export interface MousePointerIcon extends Component {}
-export interface MoveIcon extends Component {}
-export interface MusicIcon extends Component {}
-export interface Navigation2Icon extends Component {}
-export interface NavigationIcon extends Component {}
-export interface OctagonIcon extends Component {}
-export interface PackageIcon extends Component {}
-export interface PaperclipIcon extends Component {}
-export interface PauseCircleIcon extends Component {}
-export interface PauseIcon extends Component {}
-export interface PenToolIcon extends Component {}
-export interface PercentIcon extends Component {}
-export interface PhoneCallIcon extends Component {}
-export interface PhoneForwardedIcon extends Component {}
-export interface PhoneIncomingIcon extends Component {}
-export interface PhoneMissedIcon extends Component {}
-export interface PhoneOffIcon extends Component {}
-export interface PhoneOutgoingIcon extends Component {}
-export interface PhoneIcon extends Component {}
-export interface PieChartIcon extends Component {}
-export interface PlayCircleIcon extends Component {}
-export interface PlayIcon extends Component {}
-export interface PlusCircleIcon extends Component {}
-export interface PlusSquareIcon extends Component {}
-export interface PlusIcon extends Component {}
-export interface PocketIcon extends Component {}
-export interface PowerIcon extends Component {}
-export interface PrinterIcon extends Component {}
-export interface RadioIcon extends Component {}
-export interface RefreshCcwIcon extends Component {}
-export interface RefreshCwIcon extends Component {}
-export interface RepeatIcon extends Component {}
-export interface RewindIcon extends Component {}
-export interface RotateCcwIcon extends Component {}
-export interface RotateCwIcon extends Component {}
-export interface RssIcon extends Component {}
-export interface SaveIcon extends Component {}
-export interface ScissorsIcon extends Component {}
-export interface SearchIcon extends Component {}
-export interface SendIcon extends Component {}
-export interface ServerIcon extends Component {}
-export interface SettingsIcon extends Component {}
-export interface Share2Icon extends Component {}
-export interface ShareIcon extends Component {}
-export interface ShieldOffIcon extends Component {}
-export interface ShieldIcon extends Component {}
-export interface ShoppingBagIcon extends Component {}
-export interface ShoppingCartIcon extends Component {}
-export interface ShuffleIcon extends Component {}
-export interface SidebarIcon extends Component {}
-export interface SkipBackIcon extends Component {}
-export interface SkipForwardIcon extends Component {}
-export interface SlackIcon extends Component {}
-export interface SlashIcon extends Component {}
-export interface SlidersIcon extends Component {}
-export interface SmartphoneIcon extends Component {}
-export interface SmileIcon extends Component {}
-export interface SpeakerIcon extends Component {}
-export interface SquareIcon extends Component {}
-export interface StarIcon extends Component {}
-export interface StopCircleIcon extends Component {}
-export interface SunIcon extends Component {}
-export interface SunriseIcon extends Component {}
-export interface SunsetIcon extends Component {}
-export interface TabletIcon extends Component {}
-export interface TagIcon extends Component {}
-export interface TargetIcon extends Component {}
-export interface TerminalIcon extends Component {}
-export interface ThermometerIcon extends Component {}
-export interface ThumbsDownIcon extends Component {}
-export interface ThumbsUpIcon extends Component {}
-export interface ToggleLeftIcon extends Component {}
-export interface ToggleRightIcon extends Component {}
-export interface ToolIcon extends Component {}
-export interface Trash2Icon extends Component {}
-export interface TrashIcon extends Component {}
-export interface TrelloIcon extends Component {}
-export interface TrendingDownIcon extends Component {}
-export interface TrendingUpIcon extends Component {}
-export interface TriangleIcon extends Component {}
-export interface TruckIcon extends Component {}
-export interface TvIcon extends Component {}
-export interface TwitchIcon extends Component {}
-export interface TwitterIcon extends Component {}
-export interface TypeIcon extends Component {}
-export interface UmbrellaIcon extends Component {}
-export interface UnderlineIcon extends Component {}
-export interface UnlockIcon extends Component {}
-export interface UploadCloudIcon extends Component {}
-export interface UploadIcon extends Component {}
-export interface UserCheckIcon extends Component {}
-export interface UserMinusIcon extends Component {}
-export interface UserPlusIcon extends Component {}
-export interface UserXIcon extends Component {}
-export interface UserIcon extends Component {}
-export interface UsersIcon extends Component {}
-export interface VideoOffIcon extends Component {}
-export interface VideoIcon extends Component {}
-export interface VoicemailIcon extends Component {}
-export interface Volume1Icon extends Component {}
-export interface Volume2Icon extends Component {}
-export interface VolumeXIcon extends Component {}
-export interface VolumeIcon extends Component {}
-export interface WatchIcon extends Component {}
-export interface WifiOffIcon extends Component {}
-export interface WifiIcon extends Component {}
-export interface WindIcon extends Component {}
-export interface XCircleIcon extends Component {}
-export interface XOctagonIcon extends Component {}
-export interface XSquareIcon extends Component {}
-export interface XIcon extends Component {}
-export interface YoutubeIcon extends Component {}
-export interface ZapOffIcon extends Component {}
-export interface ZapIcon extends Component {}
-export interface ZoomInIcon extends Component {}
-export interface ZoomOutIcon extends Component {}
+export const ActivityIcon: Component;
+export const AirplayIcon: Component;
+export const AlertCircleIcon: Component;
+export const AlertOctagonIcon: Component;
+export const AlertTriangleIcon: Component;
+export const AlignCenterIcon: Component;
+export const AlignJustifyIcon: Component;
+export const AlignLeftIcon: Component;
+export const AlignRightIcon: Component;
+export const AnchorIcon: Component;
+export const ApertureIcon: Component;
+export const ArchiveIcon: Component;
+export const ArrowDownCircleIcon: Component;
+export const ArrowDownLeftIcon: Component;
+export const ArrowDownRightIcon: Component;
+export const ArrowDownIcon: Component;
+export const ArrowLeftCircleIcon: Component;
+export const ArrowLeftIcon: Component;
+export const ArrowRightCircleIcon: Component;
+export const ArrowRightIcon: Component;
+export const ArrowUpCircleIcon: Component;
+export const ArrowUpLeftIcon: Component;
+export const ArrowUpRightIcon: Component;
+export const ArrowUpIcon: Component;
+export const AtSignIcon: Component;
+export const AwardIcon: Component;
+export const BarChart2Icon: Component;
+export const BarChartIcon: Component;
+export const BatteryChargingIcon: Component;
+export const BatteryIcon: Component;
+export const BellOffIcon: Component;
+export const BellIcon: Component;
+export const BluetoothIcon: Component;
+export const BoldIcon: Component;
+export const BookOpenIcon: Component;
+export const BookIcon: Component;
+export const BookmarkIcon: Component;
+export const BoxIcon: Component;
+export const BriefcaseIcon: Component;
+export const CalendarIcon: Component;
+export const CameraOffIcon: Component;
+export const CameraIcon: Component;
+export const CastIcon: Component;
+export const CheckCircleIcon: Component;
+export const CheckSquareIcon: Component;
+export const CheckIcon: Component;
+export const ChevronDownIcon: Component;
+export const ChevronLeftIcon: Component;
+export const ChevronRightIcon: Component;
+export const ChevronUpIcon: Component;
+export const ChevronsDownIcon: Component;
+export const ChevronsLeftIcon: Component;
+export const ChevronsRightIcon: Component;
+export const ChevronsUpIcon: Component;
+export const ChromeIcon: Component;
+export const CircleIcon: Component;
+export const ClipboardIcon: Component;
+export const ClockIcon: Component;
+export const CloudDrizzleIcon: Component;
+export const CloudLightningIcon: Component;
+export const CloudOffIcon: Component;
+export const CloudRainIcon: Component;
+export const CloudSnowIcon: Component;
+export const CloudIcon: Component;
+export const CodeIcon: Component;
+export const CodepenIcon: Component;
+export const CodesandboxIcon: Component;
+export const CoffeeIcon: Component;
+export const ColumnsIcon: Component;
+export const CommandIcon: Component;
+export const CompassIcon: Component;
+export const CopyIcon: Component;
+export const CornerDownLeftIcon: Component;
+export const CornerDownRightIcon: Component;
+export const CornerLeftDownIcon: Component;
+export const CornerLeftUpIcon: Component;
+export const CornerRightDownIcon: Component;
+export const CornerRightUpIcon: Component;
+export const CornerUpLeftIcon: Component;
+export const CornerUpRightIcon: Component;
+export const CpuIcon: Component;
+export const CreditCardIcon: Component;
+export const CropIcon: Component;
+export const CrosshairIcon: Component;
+export const DatabaseIcon: Component;
+export const DeleteIcon: Component;
+export const DiscIcon: Component;
+export const DivideCircleIcon: Component;
+export const DivideSquareIcon: Component;
+export const DivideIcon: Component;
+export const DollarSignIcon: Component;
+export const DownloadCloudIcon: Component;
+export const DownloadIcon: Component;
+export const DribbbleIcon: Component;
+export const DropletIcon: Component;
+export const Edit2Icon: Component;
+export const Edit3Icon: Component;
+export const EditIcon: Component;
+export const ExternalLinkIcon: Component;
+export const EyeOffIcon: Component;
+export const EyeIcon: Component;
+export const FacebookIcon: Component;
+export const FastForwardIcon: Component;
+export const FeatherIcon: Component;
+export const FigmaIcon: Component;
+export const FileMinusIcon: Component;
+export const FilePlusIcon: Component;
+export const FileTextIcon: Component;
+export const FileIcon: Component;
+export const FilmIcon: Component;
+export const FilterIcon: Component;
+export const FlagIcon: Component;
+export const FolderMinusIcon: Component;
+export const FolderPlusIcon: Component;
+export const FolderIcon: Component;
+export const FramerIcon: Component;
+export const FrownIcon: Component;
+export const GiftIcon: Component;
+export const GitBranchIcon: Component;
+export const GitCommitIcon: Component;
+export const GitMergeIcon: Component;
+export const GitPullRequestIcon: Component;
+export const GithubIcon: Component;
+export const GitlabIcon: Component;
+export const GlobeIcon: Component;
+export const GridIcon: Component;
+export const HardDriveIcon: Component;
+export const HashIcon: Component;
+export const HeadphonesIcon: Component;
+export const HeartIcon: Component;
+export const HelpCircleIcon: Component;
+export const HexagonIcon: Component;
+export const HomeIcon: Component;
+export const ImageIcon: Component;
+export const InboxIcon: Component;
+export const InfoIcon: Component;
+export const InstagramIcon: Component;
+export const ItalicIcon: Component;
+export const KeyIcon: Component;
+export const LayersIcon: Component;
+export const LayoutIcon: Component;
+export const LifeBuoyIcon: Component;
+export const Link2Icon: Component;
+export const LinkIcon: Component;
+export const LinkedinIcon: Component;
+export const ListIcon: Component;
+export const LoaderIcon: Component;
+export const LockIcon: Component;
+export const LogInIcon: Component;
+export const LogOutIcon: Component;
+export const MailIcon: Component;
+export const MapPinIcon: Component;
+export const MapIcon: Component;
+export const Maximize2Icon: Component;
+export const MaximizeIcon: Component;
+export const MehIcon: Component;
+export const MenuIcon: Component;
+export const MessageCircleIcon: Component;
+export const MessageSquareIcon: Component;
+export const MicOffIcon: Component;
+export const MicIcon: Component;
+export const Minimize2Icon: Component;
+export const MinimizeIcon: Component;
+export const MinusCircleIcon: Component;
+export const MinusSquareIcon: Component;
+export const MinusIcon: Component;
+export const MonitorIcon: Component;
+export const MoonIcon: Component;
+export const MoreHorizontalIcon: Component;
+export const MoreVerticalIcon: Component;
+export const MousePointerIcon: Component;
+export const MoveIcon: Component;
+export const MusicIcon: Component;
+export const Navigation2Icon: Component;
+export const NavigationIcon: Component;
+export const OctagonIcon: Component;
+export const PackageIcon: Component;
+export const PaperclipIcon: Component;
+export const PauseCircleIcon: Component;
+export const PauseIcon: Component;
+export const PenToolIcon: Component;
+export const PercentIcon: Component;
+export const PhoneCallIcon: Component;
+export const PhoneForwardedIcon: Component;
+export const PhoneIncomingIcon: Component;
+export const PhoneMissedIcon: Component;
+export const PhoneOffIcon: Component;
+export const PhoneOutgoingIcon: Component;
+export const PhoneIcon: Component;
+export const PieChartIcon: Component;
+export const PlayCircleIcon: Component;
+export const PlayIcon: Component;
+export const PlusCircleIcon: Component;
+export const PlusSquareIcon: Component;
+export const PlusIcon: Component;
+export const PocketIcon: Component;
+export const PowerIcon: Component;
+export const PrinterIcon: Component;
+export const RadioIcon: Component;
+export const RefreshCcwIcon: Component;
+export const RefreshCwIcon: Component;
+export const RepeatIcon: Component;
+export const RewindIcon: Component;
+export const RotateCcwIcon: Component;
+export const RotateCwIcon: Component;
+export const RssIcon: Component;
+export const SaveIcon: Component;
+export const ScissorsIcon: Component;
+export const SearchIcon: Component;
+export const SendIcon: Component;
+export const ServerIcon: Component;
+export const SettingsIcon: Component;
+export const Share2Icon: Component;
+export const ShareIcon: Component;
+export const ShieldOffIcon: Component;
+export const ShieldIcon: Component;
+export const ShoppingBagIcon: Component;
+export const ShoppingCartIcon: Component;
+export const ShuffleIcon: Component;
+export const SidebarIcon: Component;
+export const SkipBackIcon: Component;
+export const SkipForwardIcon: Component;
+export const SlackIcon: Component;
+export const SlashIcon: Component;
+export const SlidersIcon: Component;
+export const SmartphoneIcon: Component;
+export const SmileIcon: Component;
+export const SpeakerIcon: Component;
+export const SquareIcon: Component;
+export const StarIcon: Component;
+export const StopCircleIcon: Component;
+export const SunIcon: Component;
+export const SunriseIcon: Component;
+export const SunsetIcon: Component;
+export const TabletIcon: Component;
+export const TagIcon: Component;
+export const TargetIcon: Component;
+export const TerminalIcon: Component;
+export const ThermometerIcon: Component;
+export const ThumbsDownIcon: Component;
+export const ThumbsUpIcon: Component;
+export const ToggleLeftIcon: Component;
+export const ToggleRightIcon: Component;
+export const ToolIcon: Component;
+export const Trash2Icon: Component;
+export const TrashIcon: Component;
+export const TrelloIcon: Component;
+export const TrendingDownIcon: Component;
+export const TrendingUpIcon: Component;
+export const TriangleIcon: Component;
+export const TruckIcon: Component;
+export const TvIcon: Component;
+export const TwitchIcon: Component;
+export const TwitterIcon: Component;
+export const TypeIcon: Component;
+export const UmbrellaIcon: Component;
+export const UnderlineIcon: Component;
+export const UnlockIcon: Component;
+export const UploadCloudIcon: Component;
+export const UploadIcon: Component;
+export const UserCheckIcon: Component;
+export const UserMinusIcon: Component;
+export const UserPlusIcon: Component;
+export const UserXIcon: Component;
+export const UserIcon: Component;
+export const UsersIcon: Component;
+export const VideoOffIcon: Component;
+export const VideoIcon: Component;
+export const VoicemailIcon: Component;
+export const Volume1Icon: Component;
+export const Volume2Icon: Component;
+export const VolumeXIcon: Component;
+export const VolumeIcon: Component;
+export const WatchIcon: Component;
+export const WifiOffIcon: Component;
+export const WifiIcon: Component;
+export const WindIcon: Component;
+export const XCircleIcon: Component;
+export const XOctagonIcon: Component;
+export const XSquareIcon: Component;
+export const XIcon: Component;
+export const YoutubeIcon: Component;
+export const ZapOffIcon: Component;
+export const ZapIcon: Component;
+export const ZoomInIcon: Component;
+export const ZoomOutIcon: Component;
 
 export {}
