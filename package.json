@@ -10,9 +10,11 @@
   "cdn": "dist/vue-feather-icons.min.js",
   "unpkg": "dist/vue-feather-icons.min.js",
   "module": "dist/vue-feather-icons.es.js",
+  "types": "types/index.d.ts",
   "files": [
     "dist",
-    "icons"
+    "icons",
+    "types"
   ],
   "sideEffects": false,
   "scripts": {
