@@ -2,3 +2,5 @@ node_modules
 dist/
 src/
 icons/
+yarn.lock
+*.log

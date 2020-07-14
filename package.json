@@ -1,6 +1,6 @@
 {
   "name": "@zhuowenli/vue-feather-icons",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "description": "Simply beautiful open source icons as Vue functional components.",
   "repository": {
     "url": "zhuowenli/vue-feather-icons",
@@ -27,12 +27,10 @@
   },
   "author": "zhuowenli <zhuowenligg@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "babel-helper-vue-jsx-merge-props": "^2.0.2"
-  },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
+    "@hcysunyang/babel-plugin-vue-next-jsx": "^0.3.0",
     "bili": "^3.4.2",
     "eslint-config-rem": "^4.0.0",
     "feather-icons": "^4.28.0",
@@ -44,18 +42,10 @@
     "prismjs": "^1.6.0",
     "typeface-nunito": "^0.0.72",
     "v-tippy": "^1.0.0",
-    "vue": "^2.5.22",
     "vue-github-badge": "^1.0.1",
     "vue-template-compiler": "^2.5.22"
   },
-  "babel": {
-    "presets": [
-      [
-        "poi/babel",
-        {
-          "jsx": "vue"
-        }
-      ]
-    ]
+  "dependencies": {
+    "vue": "^3.0.0-beta.20"
   }
 }
