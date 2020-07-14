@@ -1,9 +1,9 @@
 {
-  "name": "vue-feather-icons",
+  "name": "@zhuowenli/vue-feather-icons",
   "version": "4.22.0",
   "description": "Simply beautiful open source icons as Vue functional components.",
   "repository": {
-    "url": "egoist/vue-feather-icons",
+    "url": "zhuowenli/vue-feather-icons",
     "type": "git"
   },
   "main": "dist/vue-feather-icons.cjs.js",
@@ -25,7 +25,7 @@
     "build:example": "poi --prod --config example/poi.config.js",
     "prebuild:example": "npm run build:icons"
   },
-  "author": "egoist <0x142857@gmail.com>",
+  "author": "zhuowenli <zhuowenligg@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "babel-helper-vue-jsx-merge-props": "^2.0.2"
