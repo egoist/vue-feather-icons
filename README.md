@@ -1,6 +1,6 @@
 # vue-feather-icons
 
-> **UPDATE: Vue3 support.**
+> **fork from [vue-feather-icons](https://github.com/egoist/vue-feather-icons) and add Vue3 support.**
 
 [![NPM version](https://img.shields.io/npm/v/@zhuowenli/vue-feather-icons.svg?style=flat)](https://npmjs.com/package/@zhuowenli/vue-feather-icons) [![NPM downloads](https://img.shields.io/npm/dm/@zhuowenli/vue-feather-icons.svg?style=flat)](https://npmjs.com/package/@zhuowenli/vue-feather-icons)
 
