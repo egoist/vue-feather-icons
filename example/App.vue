@@ -1,32 +1,43 @@
 <template>
   <div id="app">
     <github
-      v-tippy="{title: 'Star me on GitHub', trigger: 'mouseenter '}"
+      v-tippy="{ title: 'Star me on GitHub', trigger: 'mouseenter ' }"
       fill="white"
-      slug="egoist/vue-feather-icons">
+      slug="egoist/vue-feather-icons"
+    >
     </github>
     <header class="header">
       <div class="container">
         <h1 class="hero-heading">vue-feather-icons</h1>
-        <h2 class="desc">Simply beautiful open source icons as Vue functional components.</h2>
+        <h2 class="desc">
+          Simply beautiful open source icons as Vue functional components.
+        </h2>
       </div>
     </header>
     <div class="container">
+      <div class="support">
+        🤩 If this project has helped you, please consider
+        <a href="https://github.com/sponsors/egoist" target="_blank"
+          >sponsoring me on GitHub</a
+        >!
+      </div>
       <div class="search-bar">
         <input
           type="text"
           class="search-input"
           v-model="keyword"
-          :placeholder="`Search in ${icons.length} icons...`">
+          :placeholder="`Search in ${icons.length} icons...`"
+        />
       </div>
       <div class="icons">
         <div
           class="icon"
-          v-tippy="{interactive: true}"
+          v-tippy="{ interactive: true }"
           :title="example"
           v-for="icon in filteredIcons"
           @click="handleClickIcon(icon)"
-          :key="icon">
+          :key="icon"
+        >
           <component :is="icon" class="icon-svg"></component>
           <span>{{ icon }}</span>
         </div>
@@ -37,12 +48,13 @@
           <div
             class="size"
             v-for="size in exampleSizes"
-            v-tippy="{interactive: true}"
+            v-tippy="{ interactive: true }"
             @click="handleClickSize(size)"
             :key="size"
-            :title="sizeExample(size)">
+            :title="sizeExample(size)"
+          >
             <div class="size-label">
-              {{ size }}{{ size === '1x' ? ' (default)' : '' }}
+              {{ size }}{{ size === "1x" ? " (default)" : "" }}
             </div>
             <div class="size-icon">
               <archive-icon :size="size"></archive-icon>
@@ -53,63 +65,64 @@
     </div>
     <footer class="footer">
       <div class="container">
-        &copy; {{ year }} Brought by <a href="https://github.com/egoist">EGOIST</a>
+        &copy; {{ year }} Brought by
+        <a href="https://github.com/egoist">EGOIST</a>
       </div>
     </footer>
   </div>
 </template>
 
 <script>
-import kebab from 'lodash.kebabcase'
-import Github from 'vue-github-badge'
-import * as icons from '../src'
-import example from './example.md'
+import kebab from "lodash.kebabcase";
+import Github from "vue-github-badge";
+import * as icons from "../src";
+import example from "./example.md";
 
 export default {
   data() {
     return {
       icons: Object.keys(icons),
-      keyword: '',
-      hoverIcon: '',
-      hoverSize: '',
+      keyword: "",
+      hoverIcon: "",
+      hoverSize: "",
       year: new Date().getFullYear(),
-      exampleSizes: ['24', '1x', '1.5x', '2x', '3x', '4x']
-    }
+      exampleSizes: ["24", "1x", "1.5x", "2x", "3x", "4x"],
+    };
   },
   computed: {
     filteredIcons() {
-      const keyword = this.keyword.trim().toLowerCase()
-      if (!keyword) return this.icons
+      const keyword = this.keyword.trim().toLowerCase();
+      if (!keyword) return this.icons;
 
-      return this.icons.filter(name => {
-        return name.toLowerCase().indexOf(keyword) > -1
-      })
+      return this.icons.filter((name) => {
+        return name.toLowerCase().indexOf(keyword) > -1;
+      });
     },
     example() {
       return example
         .replace(/ICON/g, this.hoverIcon)
-        .replace(/kebab-icon/g, kebab(this.hoverIcon))
+        .replace(/kebab-icon/g, kebab(this.hoverIcon));
     },
   },
   methods: {
     handleClickIcon(icon) {
-      this.hoverIcon = icon
+      this.hoverIcon = icon;
     },
     handleClickSize(size) {
-      this.hoverSize = size
+      this.hoverSize = size;
     },
     sizeExample(size) {
       return example
-        .replace('1.5x', size)
-        .replace(/ICON/g, 'ArchiveIcon')
-        .replace(/kebab-icon/g, 'archive-icon')
-    }
+        .replace("1.5x", size)
+        .replace(/ICON/g, "ArchiveIcon")
+        .replace(/kebab-icon/g, "archive-icon");
+    },
   },
   components: {
     ...icons,
-    Github
-  }
-}
+    Github,
+  },
+};
 </script>
 
 <style src="v-tippy/dist/tippy.css"></style>
@@ -118,7 +131,7 @@ export default {
 <style>
 body {
   margin: 0;
-  font: 14px/1.4 'Nunito', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 14px/1.4 "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -156,7 +169,7 @@ a:hover {
 .tippy-tooltip-content pre code {
   overflow: visible;
   word-wrap: normal;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
 
 .tippy-popper {
@@ -170,7 +183,7 @@ a:hover {
 
 <style scoped>
 .header {
-  background: linear-gradient(90deg,#5733ea, #4894ff 70%,#a5bcff);
+  background: linear-gradient(90deg, #5733ea, #4894ff 70%, #a5bcff);
   padding: 40px 0;
 }
 
@@ -208,7 +221,7 @@ a:hover {
 }
 
 .icon-svg {
-  margin-right: 10px
+  margin-right: 10px;
 }
 
 .search-bar {
@@ -233,7 +246,7 @@ a:hover {
 
 .footer {
   margin: 40px 0;
-  font-size: 1rem
+  font-size: 1rem;
 }
 
 .sizing {
@@ -273,6 +286,18 @@ a:hover {
 
 .size:hover {
   background: #f1f5ff;
+}
+
+.support {
+  background-color: pink;
+  border-radius: 4px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  font-size: 1.25rem;
+}
+
+.support a {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
