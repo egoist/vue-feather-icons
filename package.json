@@ -38,7 +38,7 @@
     "feather-icons": "^4.28.0",
     "fs-extra": "^8.0.1",
     "lodash.kebabcase": "^4.1.1",
-    "marked": "^0.6.0",
+    "marked": "^0.7.0",
     "pascal-case": "^2.0.1",
     "poi": "^12.4.4",
     "prismjs": "^1.6.0",
