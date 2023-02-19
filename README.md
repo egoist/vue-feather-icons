@@ -15,7 +15,7 @@ yarn add vue-feather-icons
 import { AirplayIcon, AtSignIcon, ... } from 'vue-feather-icons'
 ```
 
-See all icons and usage here: https://vue-feather-icons.egoist.sh
+See all icons and usage here: https://vue-feather-icons.egoist.dev
 
 ### Sizing
 
@@ -58,4 +58,4 @@ To make webpack tree shaking work without using any minifier, you can use the pe
 **vue-feather-icons** © [egoist](https://github.com/egoist), Released under the [MIT](./LICENSE) License.<br>
 Authored and maintained by egoist with help from contributors ([list](https://github.com/egoist/vue-feather-icons/contributors)).
 
-> [egoist.moe](https://egoist.moe) · GitHub [@egoist](https://github.com/egoist) · Twitter [@_egoistlily](https://twitter.com/_egoistlily)
+> [egoist.dev](https://egoist.dev) · GitHub [@egoist](https://github.com/egoist) · Twitter [@poorlybatched](https://twitter.com/poorlybatched)
